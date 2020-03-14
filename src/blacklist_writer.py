@@ -44,7 +44,7 @@ class BlacklistWriter:
 
     def get_formatted_domain_string(self, domain_name):
         justified_domain = domain_name.ljust(self.padding_size)
-        return f'{justified_domain} CNAME    null.null-zone.null.'
+        return f'{justified_domain} A    0.0.0.0'
 
     def write_to_file(self, content):
         file_name = self.output_path

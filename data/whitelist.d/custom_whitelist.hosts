@@ -1,0 +1,13 @@
+# blogspot whitelist
+127.0.0.1 blogger.l.google.com
+127.0.0.1 www.blogger.com
+127.0.0.1 resources.blogblog.com
+
+# facebook whitelist
+127.0.0.1 api.facebook.com
+127.0.0.1 www.facebook.com
+127.0.0.1 facebook.com
+
+# google whitelist
+127.0.0.1 apis.google.com
+127.0.0.1 plus.l.google.com
